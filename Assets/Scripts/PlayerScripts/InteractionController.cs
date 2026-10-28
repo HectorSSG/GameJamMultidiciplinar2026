@@ -48,7 +48,18 @@ public class InteractionController : MonoBehaviour
                         objectScript.ActiveObject();
                     }
                 }
+            Ray ray2 = new Ray(transform.position, transform.forward);
+            RaycastHit hit2;
+            if (Physics.Raycast(ray2, out hit2, interactionDistance, interactableObject))
+            {
+                interactionPanel.SetActive(true);
+                KeyBehavior keyScript = hit2.collider.GetComponent<KeyBehavior>();
+                if (keyScript != null)
+                {
+                    keyScript.ActiveDoor();
+                }
             }
+        }
     }
     private void OnDrawGizmos()
     {
