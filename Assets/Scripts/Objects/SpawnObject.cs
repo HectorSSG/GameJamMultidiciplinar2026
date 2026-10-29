@@ -9,7 +9,7 @@ public class SpawnObject : MonoBehaviour
     public Transform[] spawnPoints;
     public float spawnTime = 0.1f;
     private int actualPoint;
-    private float visibleTime = 3f;
+    [SerializeField] private float visibleTime = 1.5f;
     [SerializeField] private bool vanished = false;
     [SerializeField] private AudioSource vanishedEffect;
     [SerializeField] private AudioClip soundVanish;

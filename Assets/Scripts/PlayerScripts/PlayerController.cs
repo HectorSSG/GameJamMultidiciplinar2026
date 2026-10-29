@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
     public float sensitivity = 0.1f;
     private InputAction lookAction;
     public float rotationX = 0f;
+    public AudioSource runEffect;
+    public AudioSource walkEffect;
+    public AudioClip run;
+    public AudioClip walk;
 
     private void Start()
     {
@@ -27,6 +31,8 @@ public class PlayerController : MonoBehaviour
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+
     }
     private void Update()
     {
@@ -35,6 +41,18 @@ public class PlayerController : MonoBehaviour
         rotationX -= mouseInput.y;
         rotationX = Math.Clamp(rotationX, -90f, 90f);
         cameraTransform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
+        if (moveAction.WasPressedThisFrame())
+        {
+            Invoke(nameof(OnWalkState), 0f);
+        }
+        else if (sprintAction.IsPressed())
+        {
+            Invoke(nameof(OnRunState), 0f);
+        }
+        if (moveAction.WasReleasedThisFrame() || sprintAction.WasReleasedThisFrame())
+        {
+            walkEffect.Stop();
+        }
     }
     private void FixedUpdate()
     {
@@ -42,5 +60,17 @@ public class PlayerController : MonoBehaviour
         float actualSpeed = sprintAction.IsPressed() ? (playerSpeed * 2f) : playerSpeed;
         Vector3 direction = (transform.forward * input.y) + (transform.right * input.x);
         playerRB.linearVelocity = new Vector3(direction.x * actualSpeed, playerRB.linearVelocity.y, direction.z * actualSpeed);
+    }
+    void OnRunState()
+    {
+        runEffect.Stop();
+        walkEffect.clip = run;
+        walkEffect.Play();
+    }
+    void OnWalkState()
+    {
+        walkEffect.Stop();
+        walkEffect.clip = walk;
+        walkEffect.Play();
     }
 }

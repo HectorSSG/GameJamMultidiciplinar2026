@@ -339,7 +339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &615679896
 RectTransform:
   m_ObjectHideFlags: 0
@@ -501,8 +501,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 511.22574, y: -128.211}
-  m_SizeDelta: {x: 118.691, y: 35.164}
+  m_AnchoredPosition: {x: 472.237, y: -120.901}
+  m_SizeDelta: {x: 75.741, y: 30.869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825164553
 MonoBehaviour:
@@ -762,8 +762,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 485.14075, y: 234.14}
-  m_SizeDelta: {x: 118.692, y: 48.933}
+  m_AnchoredPosition: {x: 493.66983, y: 241.45}
+  m_SizeDelta: {x: 92.207, y: 38.912}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063405918
 MonoBehaviour:
@@ -811,7 +811,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 401647619}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: StartCinematic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -894,8 +894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 41, y: 0}
+  m_SizeDelta: {x: -678.307, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298585657
 MonoBehaviour:
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a4c89754d5f47a49b925f83a3873468, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58e230294be699447a2a9fc63c50c87f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -970,8 +970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 585.2, y: 43.323986}
-  m_SizeDelta: {x: 151.69, y: 42.909}
+  m_AnchoredPosition: {x: 587.6367, y: 52.08798}
+  m_SizeDelta: {x: 145.963, y: 30.602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1305297991
 MonoBehaviour:
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93a0838a396d80d449d607b6cd68142d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9b82c613b0592e4bb0f64616bb3ceb5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
