@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -923,7 +922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -1167,7 +1165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -2817,7 +2814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 5
   playerLayer:
     serializedVersion: 2
@@ -3114,7 +3110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -3839,7 +3834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -4816,7 +4810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -5424,7 +5417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e54e0b08170fb4ba74ed140f61cb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fallObject
-  responseTime: 0.2
   raycastDistance: 3
   playerLayer:
     serializedVersion: 2
@@ -7523,19 +7515,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3559691383002057620, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 205.887
+      value: 351.43
       objectReference: {fileID: 0}
     - target: {fileID: 3559691383002057620, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 68.969
+      value: 89.494
       objectReference: {fileID: 0}
     - target: {fileID: 3559691383002057620, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2.899
+      value: 9.9697
       objectReference: {fileID: 0}
     - target: {fileID: 3559691383002057620, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -239.3791
+      value: -238.539
       objectReference: {fileID: 0}
     - target: {fileID: 3623719007745385928, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7563,19 +7555,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8104888687078085781, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 252.668
+      value: 351.425
       objectReference: {fileID: 0}
     - target: {fileID: 8104888687078085781, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 81.29
+      value: 111.316
       objectReference: {fileID: 0}
     - target: {fileID: 8104888687078085781, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.798
+      value: 9.971
       objectReference: {fileID: 0}
     - target: {fileID: 8104888687078085781, guid: 1ffba215118f9304eb8dd508abb4cc53, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -122.281
+      value: -118.278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
