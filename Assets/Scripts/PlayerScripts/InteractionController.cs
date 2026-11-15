@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class InteractionController : MonoBehaviour
 {
-    public float interactionDistance = 3f;
+    public float interactionDistance = 0.5f;
     private InputAction interactionAction;
     [SerializeField] private LayerMask interactableObject;
     [SerializeField] private GameObject interactionPanel;

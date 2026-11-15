@@ -994,7 +994,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 0
@@ -4430,7 +4430,7 @@ MonoBehaviour:
   scriptToActive: {fileID: 0}
   tutorialPanel: {fileID: 0}
   panelObjetive: {fileID: 0}
-  activationTime: 10
+  activationTime: 3
 --- !u!4 &1565731335
 Transform:
   m_ObjectHideFlags: 0
@@ -4461,7 +4461,7 @@ MonoBehaviour:
   scriptToActive: {fileID: 2000048625}
   tutorialPanel: {fileID: 0}
   panelObjetive: {fileID: 1992886782}
-  activationTime: 10
+  activationTime: 3
 --- !u!65 &1572956015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5609,7 +5609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1fcb2490ec3534d9b9a6eff48379e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
-  remainingTime: 300
+  remainingTime: 180
   textTimer: {fileID: 1630530998}
   playerDeath: {fileID: 117157635}
 --- !u!4 &2000048626
@@ -7659,6 +7659,10 @@ PrefabInstance:
       propertyPath: walkEffect
       value: 
       objectReference: {fileID: 1573273030}
+    - target: {fileID: 5357631851433353053, guid: 4b5c052ca04969d4e8016f251eca2fcd, type: 3}
+      propertyPath: Lens.NearClipPlane
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 6570112978041691434, guid: 4b5c052ca04969d4e8016f251eca2fcd, type: 3}
       propertyPath: m_Enabled
       value: 0
